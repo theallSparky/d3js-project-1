@@ -1,5 +1,5 @@
 const canvas = d3.select(".canva");
-const svg = canvas.append("svg").attr("width", "500").attr("height", "250");
+const svg = canvas.append("svg").attr("width", "750").attr("height", "500");
 
 // svg
 //   .append("circle")
@@ -31,27 +31,27 @@ svg
   .text("Hello, there!")
   .attr("fill", "gray")
   .attr("stroke", "green")
-  .attr("font-size", "15")
+  .attr("font-size", "45")
   .attr("text-anchor", "end")
-  .attr("x", 90)
-  .attr("y", 20);
+  .attr("x", 275)
+  .attr("y", 60);
 
 svg
   .append("text")
   .text("Welcome!")
   .attr("fill", "red")
   .attr("stroke", "red")
-  .attr("font-size", "13.5")
+  .attr("font-size", "30")
   .attr("text-anchor", "middle")
-  .attr("x", 90)
-  .attr("y", 40);
+  .attr("x", 275)
+  .attr("y", 100);
 
 svg
   .append("text")
   .text("How are you?")
   .attr("fill", "blue")
   .attr("stroke", "blue")
-  .attr("font-size", "12")
+  .attr("font-size", "25")
   .attr("text-anchor", "beginning")
-  .attr("x", 90)
-  .attr("y", 60);
+  .attr("x", 275)
+  .attr("y", 140);
