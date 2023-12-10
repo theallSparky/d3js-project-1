@@ -25,3 +25,10 @@ svg
   .attr("y1", 100)
   .attr("y2", 46)
   .attr("stroke", "gray");
+
+svg
+  .append("text")
+  .text("Hello, there!")
+  .attr("fill", "gray")
+  .attr("x", 100)
+  .attr("y", 150);
