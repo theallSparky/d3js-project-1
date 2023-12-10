@@ -14,12 +14,14 @@ svg
   .attr("height", 50)
   .attr("x", 150)
   .attr("y", 80)
-  .attr("fill", "green");
+  .attr("fill", "green")
+  .attr("rx", 15)
+  .attr("ry", 15);
 
 svg
   .append("line")
   .attr("x1", 129)
   .attr("x2", 45)
-  .attr("y1", 300)
+  .attr("y1", 100)
   .attr("y2", 46)
   .attr("stroke", "gray");
