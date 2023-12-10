@@ -10,10 +10,10 @@ svg
 
 svg
   .append("rect")
-  .attr("width", 10)
-  .attr("height", 50)
-  .attr("x", 150)
-  .attr("y", 80)
+  .attr("width", 100)
+  .attr("height", 100)
+  .attr("x", 120)
+  .attr("y", 0)
   .attr("fill", "green")
   .attr("rx", 15)
   .attr("ry", 15);
