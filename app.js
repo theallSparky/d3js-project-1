@@ -30,10 +30,11 @@ svg
   .append("text")
   .text("Hello, there!")
   .attr("fill", "gray")
-  .attr("font-size", "12")
+  .attr("stroke", "green")
+  .attr("font-size", "15")
   .attr("text-anchor", "end")
-  .attr("x", 70)
-  .attr("y", 10);
+  .attr("x", 90)
+  .attr("y", 20);
 
 svg
   .append("text")
@@ -41,8 +42,8 @@ svg
   .attr("fill", "gray")
   .attr("font-size", "12")
   .attr("text-anchor", "middle")
-  .attr("x", 70)
-  .attr("y", 30);
+  .attr("x", 90)
+  .attr("y", 40);
 
 svg
   .append("text")
@@ -50,5 +51,5 @@ svg
   .attr("fill", "gray")
   .attr("font-size", "12")
   .attr("text-anchor", "beginning")
-  .attr("x", 70)
-  .attr("y", 50);
+  .attr("x", 90)
+  .attr("y", 60);
