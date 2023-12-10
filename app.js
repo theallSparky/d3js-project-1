@@ -39,8 +39,9 @@ svg
 svg
   .append("text")
   .text("Welcome!")
-  .attr("fill", "gray")
-  .attr("font-size", "12")
+  .attr("fill", "red")
+  .attr("stroke", "red")
+  .attr("font-size", "13.5")
   .attr("text-anchor", "middle")
   .attr("x", 90)
   .attr("y", 40);
@@ -48,7 +49,8 @@ svg
 svg
   .append("text")
   .text("How are you?")
-  .attr("fill", "gray")
+  .attr("fill", "blue")
+  .attr("stroke", "blue")
   .attr("font-size", "12")
   .attr("text-anchor", "beginning")
   .attr("x", 90)
