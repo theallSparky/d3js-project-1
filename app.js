@@ -1,34 +1,51 @@
 const canvas = d3.select(".canva");
 const svg = canvas.append("svg").attr("width", "500").attr("height", "250");
 
-svg
-  .append("circle")
-  .attr("cx", 100)
-  .attr("cy", 100)
-  .attr("r", "50")
-  .attr("fill", "blue");
+// svg
+//   .append("circle")
+//   .attr("cx", 100)
+//   .attr("cy", 100)
+//   .attr("r", "50")
+//   .attr("fill", "blue");
 
-svg
-  .append("rect")
-  .attr("width", 100)
-  .attr("height", 100)
-  .attr("x", 120)
-  .attr("y", 0)
-  .attr("fill", "green")
-  .attr("rx", 15)
-  .attr("ry", 15);
+// svg
+//   .append("rect")
+//   .attr("width", 100)
+//   .attr("height", 100)
+//   .attr("x", 120)
+//   .attr("y", 0)
+//   .attr("fill", "green")
+//   .attr("rx", 15)
+//   .attr("ry", 15);
 
-svg
-  .append("line")
-  .attr("x1", 129)
-  .attr("x2", 45)
-  .attr("y1", 100)
-  .attr("y2", 46)
-  .attr("stroke", "gray");
+// svg
+//   .append("line")
+//   .attr("x1", 129)
+//   .attr("x2", 45)
+//   .attr("y1", 100)
+//   .attr("y2", 46)
+//   .attr("stroke", "gray");
 
 svg
   .append("text")
   .text("Hello, there!")
   .attr("fill", "gray")
-  .attr("x", 100)
-  .attr("y", 150);
+  .attr("font-size", "12")
+  .attr("x", 10)
+  .attr("y", 10);
+
+svg
+  .append("text")
+  .text("Welcome!")
+  .attr("fill", "gray")
+  .attr("font-size", "12")
+  .attr("x", 10)
+  .attr("y", 30);
+
+svg
+  .append("text")
+  .text("How are you?")
+  .attr("fill", "gray")
+  .attr("font-size", "12")
+  .attr("x", 10)
+  .attr("y", 50);
