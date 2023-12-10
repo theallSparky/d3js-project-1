@@ -31,7 +31,8 @@ svg
   .text("Hello, there!")
   .attr("fill", "gray")
   .attr("font-size", "12")
-  .attr("x", 10)
+  .attr("text-anchor", "end")
+  .attr("x", 70)
   .attr("y", 10);
 
 svg
@@ -39,7 +40,8 @@ svg
   .text("Welcome!")
   .attr("fill", "gray")
   .attr("font-size", "12")
-  .attr("x", 10)
+  .attr("text-anchor", "middle")
+  .attr("x", 70)
   .attr("y", 30);
 
 svg
@@ -47,5 +49,6 @@ svg
   .text("How are you?")
   .attr("fill", "gray")
   .attr("font-size", "12")
-  .attr("x", 10)
+  .attr("text-anchor", "beginning")
+  .attr("x", 70)
   .attr("y", 50);
